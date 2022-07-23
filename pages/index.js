@@ -77,7 +77,6 @@ export default function Home({ videos }) {
     setCurrentURL(
       `https://youtube-v31.p.rapidapi.com/search?q=${searchValue}&part=snippet%2Cid&regionCode=US&maxResults=20&order=${item}`
     );
-    console.log(item);
   }
 
   //function handling video sorting
